@@ -1,7 +1,7 @@
 # Banga Sergey  
 ## Junior Frontend Developer
 
-<img src="https://downloader.disk.yandex.ru/preview/624c64550efea4997178de909a6098123e1b7bd710d8f1d1f15db53a4b8bce06/629a9a9e/wA9m7LI8JYYu6vrO0KsXgdPdpE1sAH8ucNwH7GkUDn29UrCE8qbhJp2Ir2vZFtZbvL3hYdA1ix-W09xuKwp5bQ%3D%3D?uid=0&filename=rs_school-cv1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" alt="boss" height="160px" style="float: left; margin-right: 20px;" /> 
+<img src="./images/rs_school-cv.jpg" alt="boss" height="160px" style="float: left; margin-right: 20px;" /> 
  
 ### Bio  
 *Current City:* Petrozavodsk, Russia  
