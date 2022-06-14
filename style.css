@@ -1,0 +1,246 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d4d2d2;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+li{
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+    
+.container{
+    max-width: 1120px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.menu{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #bfc730;
+    color: #000000;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menu__link{
+    text-transform: uppercase;
+}
+
+.header__info{
+    display: flex;
+}
+
+.header-info__img{
+    max-width: 550px;
+    height: 450px;
+}
+
+.header-info__top{
+    padding-top: 82px;
+    padding-left: 30px;
+}
+    
+.header-info__title{
+    font-size: 56px;
+    margin: 0;
+}
+
+.header-info__subtitle{
+    font-size: 32px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.header-content__main{
+    padding-top: 25px;
+}
+
+.header-content__title{
+    position: relative;
+    z-index: 1;
+    padding-left: 60px;
+    color: #000000;
+}
+    
+.header-content__title::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 36px;
+    background-color: #c4b916;
+}
+
+.header-content__text{
+    padding-left: 30px;
+}
+
+.content__aside{
+    text-align: center;
+    background-color: #bfc730;
+    color: #000000;
+}
+
+.content__general{
+    display: grid;
+    grid-template-columns: 496px 1fr;
+}
+
+.content-title__aside{
+    position: relative;
+    z-index: 1;
+}
+
+.content-title__aside::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 496px;
+    height: 36px;
+    background-color: #a3990d;
+}
+
+.content-list__aside{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.content-item__aside{
+    padding: 0;
+}
+
+.content-aside__text{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.content__main{
+    text-align: center;
+    background-color: #1b1b1c;
+    margin: 0;
+    padding: 0;
+}
+
+.content-main__title{
+    
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    padding-left: 60px;
+}
+
+.content-main__title::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 36px;
+    background-color: #c4b916;
+}
+
+.content-main__item{
+    padding: 38px 30px;
+    padding-top: 10px;
+}
+
+.content-main__subtitle{
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+    color: #000000;
+    margin: 0;
+}
+
+.content-main__subtitle::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 36px;
+    background-color: #c4b916;
+}
+
+.content-main__text{
+    padding-left: 60px;
+    font-style: italic;
+}   
+
+.footer{
+    
+    height: 150px;
+}
+    
+
+.content__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #bfc730;
+}
+
+.footer-link__github{
+    position: relative;
+    padding-left: 40px;
+    padding-top: 5px;
+    color: #000000;
+}
+
+.footer-link__github::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/github_logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+    
+.footer__text{
+    color: #000000;
+}
+
+.footer__img{
+    width: 50px;
+    height: 50px;
+}
