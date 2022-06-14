@@ -231,7 +231,7 @@ a{
     top: 0;
     width: 32px;
     height: 32px;
-    background-image: url(/images/github_logo.png);
+    background-image: url(images/github_logo.png);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
